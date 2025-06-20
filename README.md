@@ -69,7 +69,7 @@ sudo /media/cdrom/VBoxLinuxAdditions.run
 
 Restart the VM after installation.
 
--
+
 
 ## ⚙️ Ubuntu Server Configuration
 
