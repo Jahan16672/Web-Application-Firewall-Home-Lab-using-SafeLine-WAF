@@ -75,7 +75,7 @@ Restart the VM after installation.
 
 
 
-## ⚙️ Ubuntu Server Configuration
+##  Ubuntu Server Configuration
 
 ### 1. System Update & Basic Tools
 
@@ -132,7 +132,7 @@ DVWA should now be accessible at: `http://<Ubuntu-IP>:8080/DVWA`
 
 
 
-## 🧭 Local DNS Resolution
+##  Local DNS Resolution
 
 Edit `/etc/hosts` on both Ubuntu and Kali:
 
