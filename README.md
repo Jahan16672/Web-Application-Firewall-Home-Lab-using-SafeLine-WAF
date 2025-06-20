@@ -132,7 +132,7 @@ DVWA should now be accessible at: `http://<Ubuntu-IP>:8080/DVWA`
 
 ![image](https://github.com/user-attachments/assets/ffbd5eae-216f-41b1-9efc-636fb6f2b63d)
 
-***Ref: 1 — How SafeLine WAF Works***
+***Ref: 2 — DVWA login Interface***
 
 ##  Local DNS Resolution
 
@@ -173,7 +173,7 @@ Note the login credentials and management URL (usually `https://<Ubuntu-IP>:9443
 
 ![image](https://github.com/user-attachments/assets/a0dd9f97-3f26-4e45-9936-e058cfd4bb12)
 
-***Ref: 1 — How SafeLine WAF Works***
+***Ref: 3 — Safline Interface***
 
 ### 2. Import SSL Certificate into SafeLine
 
@@ -184,7 +184,7 @@ Use the GUI to import:
 
 ![image](https://github.com/user-attachments/assets/d0899541-bfdf-4d58-bfcc-d60b2e0054f4)
 
-***Ref: 1 — How SafeLine WAF Works***
+***Ref: 4 — SSL Creation***
 
 ### 3. Onboard DVWA in SafeLine
 
