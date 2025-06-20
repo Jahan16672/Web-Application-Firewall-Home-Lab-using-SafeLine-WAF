@@ -3,7 +3,9 @@
 
 ## Overview
 
-This project sets up a complete **cybersecurity home lab** on VirtualBox using Ubuntu Server, Kali Linux, DVWA, and SafeLine WAF. The goal is to simulate a vulnerable web application environment, demonstrate attacks like SQL injection, and showcase how a Web Application Firewall (WAF) like **SafeLine** can defend against them.
+This project sets up a complete **cybersecurity home lab** on VirtualBox using Ubuntu Server, Kali Linux, DVWA, and SafeLine WAF. The goal is to simulate a vulnerable web application environment, demonstrate attacks like SQL injection, and showcase how a Web 
+Application Firewall (WAF) like **SafeLine** can defend against them.
+
 -
 
 ##  Objectives
@@ -12,7 +14,6 @@ This project sets up a complete **cybersecurity home lab** on VirtualBox using U
 * Perform a **basic SQL injection attack** using Kali Linux.
 * **Protect the application** using SafeLine WAF.
 * Explore **advanced WAF features** like HTTP flood protection and custom deny rules.
-
 -
 
 ##  Prerequisites
