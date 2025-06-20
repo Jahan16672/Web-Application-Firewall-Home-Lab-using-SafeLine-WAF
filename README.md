@@ -249,7 +249,7 @@ Action: Deny
 
 ##  Acknowledgments
 
-* Special thanks [The Social Dork on YouTube](https://www.youtube.com/@thesocialdork1133) for providing inspiring and insightful cybersecurity lab content. This project was made much easier by following their techniques and walkthroughs.
+* Special thanks [The Social Dork on YouTube](https://www.youtube.com/@thesocialdork1133) for providing inspiring and insightful cybersecurity lab content. This project was made much easier by following his techniques and walkthroughs.
 
 
 ##  To-Do (Optional Enhancements)
