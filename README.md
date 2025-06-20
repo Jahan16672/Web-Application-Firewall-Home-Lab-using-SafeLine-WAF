@@ -5,7 +5,7 @@
 
 This project sets up a complete **cybersecurity home lab** on VirtualBox using Ubuntu Server, Kali Linux, DVWA, and SafeLine WAF. The goal is to simulate a vulnerable web application environment, demonstrate attacks like SQL injection, and showcase how a Web Application Firewall (WAF) like **SafeLine** can defend against them.
 
----
+-
 
 ##  Objectives
 
@@ -14,7 +14,7 @@ This project sets up a complete **cybersecurity home lab** on VirtualBox using U
 * **Protect the application** using SafeLine WAF.
 * Explore **advanced WAF features** like HTTP flood protection and custom deny rules.
 
----
+-
 
 ##  Prerequisites
 
@@ -23,7 +23,7 @@ This project sets up a complete **cybersecurity home lab** on VirtualBox using U
 * Basic Linux command-line knowledge
 * Stable internet connection
 
----
+-
 
 ##  Lab Environment Setup
 
@@ -71,7 +71,7 @@ sudo /media/cdrom/VBoxLinuxAdditions.run
 
 Restart the VM after installation.
 
----
+-
 
 ## ⚙️ Ubuntu Server Configuration
 
@@ -128,7 +128,7 @@ sudo systemctl restart apache2
 
 DVWA should now be accessible at: `http://<Ubuntu-IP>:8080/DVWA`
 
----
+-
 
 ## 🧭 Local DNS Resolution
 
@@ -146,7 +146,7 @@ Add:
 
 Now DVWA is accessible at: `http://webserver.sam:8080/DVWA`
 
----
+-
 
 ##  Create a Self-Signed SSL Certificate
 
@@ -155,7 +155,7 @@ sudo openssl genrsa -out /etc/ssl/private/dvwa.key 4096
 sudo openssl req -x509 -new -key /etc/ssl/private/dvwa.key -out /etc/ssl/certs/dvwa.crt -days 365
 ```
 
----
+-
 
 ##  Install and Configure SafeLine WAF
 
@@ -182,7 +182,7 @@ Use the GUI to import:
 * Attach imported SSL cert
 * Save and test: `https://webserver.sam`
 
----
+-
 
 ##  Simulate SQL Injection Attack
 
@@ -200,7 +200,7 @@ admin' OR '1'='1
 
 SafeLine WAF should detect and block the attack depending on settings.
 
----
+-
 
 ##  SafeLine Advanced Configurations
 
@@ -226,7 +226,7 @@ Action: Deny
 
 * Attempt access from Kali; you should get blocked
 
----
+-
 
 ##  Final Notes
 
@@ -234,12 +234,12 @@ Action: Deny
 *  **Keep this lab isolated** from your production or main networks
 *  **Regularly update** all components for security patches
 
----
+-
 
 ##  Acknowledgments
 
 Special thanks [The Social Dork on YouTube](https://www.youtube.com/@thesocialdork1133) for providing inspiring and insightful cybersecurity lab content. This project was made much easier by following their techniques and walkthroughs.
----
+-
 
 ##  To-Do (Optional Enhancements)
 
@@ -247,7 +247,3 @@ Special thanks [The Social Dork on YouTube](https://www.youtube.com/@thesocialdo
 * Add multi-stage attack chain testing (LFI > RCE)
 * Integrate with ModSecurity or CrowdSec
 * Set up Suricata for network-level detection
-
----
-
-> If you found this project helpful, consider giving it a ⭐ on GitHub!
