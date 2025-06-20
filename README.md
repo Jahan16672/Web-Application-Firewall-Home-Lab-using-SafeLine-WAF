@@ -126,7 +126,7 @@ sudo systemctl restart apache2
 
 DVWA should now be accessible at: `http://<Ubuntu-IP>:8080/DVWA`
 
--
+
 
 ## 🧭 Local DNS Resolution
 
@@ -144,7 +144,7 @@ Add:
 
 Now DVWA is accessible at: `http://webserver.sam:8080/DVWA`
 
--
+
 
 ##  Create a Self-Signed SSL Certificate
 
@@ -153,7 +153,7 @@ sudo openssl genrsa -out /etc/ssl/private/dvwa.key 4096
 sudo openssl req -x509 -new -key /etc/ssl/private/dvwa.key -out /etc/ssl/certs/dvwa.crt -days 365
 ```
 
--
+
 
 ##  Install and Configure SafeLine WAF
 
@@ -180,7 +180,7 @@ Use the GUI to import:
 * Attach imported SSL cert
 * Save and test: `https://webserver.sam`
 
--
+
 
 ##  Simulate SQL Injection Attack
 
@@ -198,7 +198,7 @@ admin' OR '1'='1
 
 SafeLine WAF should detect and block the attack depending on settings.
 
--
+
 
 ##  SafeLine Advanced Configurations
 
@@ -224,7 +224,6 @@ Action: Deny
 
 * Attempt access from Kali; you should get blocked
 
--
 
 ##  Final Notes
 
@@ -232,13 +231,12 @@ Action: Deny
 *  **Keep this lab isolated** from your production or main networks
 *  **Regularly update** all components for security patches
 
--
+
 
 ##  Acknowledgments
 
 * Special thanks [The Social Dork on YouTube](https://www.youtube.com/@thesocialdork1133) for providing inspiring and insightful cybersecurity lab content. This project was made much easier by following their techniques and walkthroughs.
 
---
 
 ##  To-Do (Optional Enhancements)
 
