@@ -17,7 +17,7 @@ This project sets up a complete **cybersecurity home lab** on VirtualBox using U
 
 ##  Prerequisites
 
-- A host machine with at least **8 GB RAM** and **50 GB free disk space**
+- A host machine with at least **4 GB RAM** and **50 GB free disk space**
 - **VirtualBox** installed
 - Basic Linux command-line knowledge
 - Stable internet connection
