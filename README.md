@@ -4,7 +4,7 @@
 
 This project sets up a complete **cybersecurity home lab** on VirtualBox using Ubuntu Server, Kali Linux, DVWA, and SafeLine WAF. The goal is to simulate a vulnerable web application environment, demonstrate attacks like SQL injection, and showcase how a Web Application Firewall (WAF) like **SafeLine** can defend against them.
 
-![image](https://github.com/user-attachments/assets/e4287017-07e2-4066-9d21-8b3283aa80f9)
+![image](https://github.com/user-attachments/assets/15342116-c6a3-436e-8fef-e7fb4f49d787)
 
 *Ref: 1 — How SafeLine WAF Works*
 ---
