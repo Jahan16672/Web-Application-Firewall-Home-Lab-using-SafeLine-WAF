@@ -6,7 +6,8 @@ This project sets up a complete **cybersecurity home lab** on VirtualBox using U
 
 ![image](https://github.com/user-attachments/assets/15342116-c6a3-436e-8fef-e7fb4f49d787)
 
-*Ref: 1 — How SafeLine WAF Works*
+***Ref: 1 — How SafeLine WAF Works***
+
 ---
 
 ##  Objectives
